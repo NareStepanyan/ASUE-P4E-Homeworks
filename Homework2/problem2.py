@@ -11,9 +11,9 @@ else:
 			print("game over!")
 			break			
 		if num > int(guess):
-			print("too high!")
-		else:
 			print("too low!")
+		else:
+			print("too high!")
 		i+=1
 		guess = input("guess number: ")	
 		if (guess) == "exit":
